@@ -9,6 +9,9 @@ class ProductsController < ApplicationController
     render plain: product.inventory > 0 ? true : false
   end
 
+  def description
+  end
+
   def new
     @product = Product.new
   end
