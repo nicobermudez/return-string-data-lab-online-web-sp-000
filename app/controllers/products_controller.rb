@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
 
-  def body 
+  def body
   end
 
 end
